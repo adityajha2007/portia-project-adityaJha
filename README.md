@@ -86,7 +86,7 @@ From a developer’s perspective, research and documentation are often time-cons
 
 ### Architecture Diagram
 
-![plot](ArchitectureDiagrams/automated-code-quality-analysis.svg)
+![plot](ArchitectureDiagrams/deep-research.svg)
 
 ---
 
