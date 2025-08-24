@@ -1,20 +1,37 @@
 # portia-wemakedevs-hackathon-project-by-adityaJha
 
-# PortiaAI Implementation Analysis: Comprehensive Feature Documentation
+# Dev-Assist- PortiaAI Implementation Analysis: Comprehensive Feature Documentation
 
 This document provides a technical analysis of four distinct PortiaAI workflow implementations, highlighting the framework's capabilities and their practical applications in software development environments.
 
+### Setup
+1. Clone the repository and select this folder.
+2. Create a `.env` and add your API keys to it.
+3. Install the dependencies from `requirements.txt`
+4. You may need to install some other dependencies based on the API key you're using 
+
 portia-project-adityaJha/
-├── README.md # This file
+
+├── README.md` # This file
+
 ├── requirements.txt # Python dependencies
+
 ├── PlanA-Code-analysis.py
+
 ├── PlanB-deepresearch.py
+
 ├── PlanC-customersupport-zendeskticket.py
+
 ├── PlanD-RAG.py
+
 ├── Frontend-integrated/
-│ └── Streamlit-frontend-with-PlanC-customersupport.py
+
+│ └── Streamlit-frontend-with-PlanC-customersupport.py   #Has the streamlit implimentation
+
 ├── ArchitectureDiagrams/
-│ └── ......Diagrams.svg
+
+│ └── Diagrams.svg
+
 ---
 ---
 ---
@@ -207,35 +224,8 @@ This workflow addresses the critical challenge of knowledge management in develo
 
 ---
 
-## Comprehensive PortiaAI Framework Analysis
 
-### Universal Framework Features Demonstrated
-
-**Workflow Orchestration Capabilities**
-- **PlanBuilderV2**: Declarative workflow construction with sequential, conditional, and parallel execution patterns
-- **Step Chaining**: Seamless data flow between workflow components using StepOutput references
-- **Input Parameterization**: Dynamic workflow configuration with default values and type validation
-- **Conditional Logic**: Sophisticated branching logic with lambda-based condition evaluation
-
-**Integration Architecture**
-- **Tool Registry System**: Flexible tool management supporting custom, open-source, and cloud-based tools
-- **MCP Server Support**: Native integration with Model Context Protocol servers for external service connectivity
-- **Multi-Modal Tool Coordination**: Seamless orchestration of API calls, file operations, and AI processing
-- **Authentication Management**: Centralized credential handling for cloud services and external APIs
-
-**AI and Language Model Integration**
-- **LLM Step Processing**: Structured AI task execution with schema-validated outputs
-- **Single-Tool Agent Steps**: AI-powered tool usage with natural language task descriptions
-- **Output Schema Validation**: Pydantic-based type safety for AI-generated content
-- **Model Configuration**: Flexible LLM provider selection and configuration management
-
-**Development Experience Enhancements**
-- **Type Safety**: Comprehensive type annotation support with runtime validation
-- **Error Handling**: Built-in retry logic and graceful failure management
-- **Execution Monitoring**: Complete workflow observability with step-by-step tracking
-- **User Attribution**: Multi-tenant support with end-user tracking and audit capabilities
-
-### Framework Value Proposition for Developers
+## Portia Value Proposition for Me
 
 **Development Velocity**
 PortiaAI eliminates the complexity traditionally associated with AI workflow development by providing a declarative approach to building sophisticated automation systems. Developers can focus on business logic rather than infrastructure concerns, reducing development time from weeks to days for complex multi-step workflows.
@@ -248,5 +238,3 @@ Built-in features for monitoring, error handling, user attribution, and authenti
 
 **Integration Simplicity**
 The universal tool registry approach and MCP server support enable rapid integration with existing systems and services, reducing the typical integration overhead associated with building AI-powered automation systems.
-
-This comprehensive framework analysis demonstrates PortiaAI's capability to transform complex automation requirements into manageable, maintainable, and scalable workflow implementations across diverse use cases in modern software development environments.
