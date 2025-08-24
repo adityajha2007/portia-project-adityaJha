@@ -85,7 +85,8 @@ From a developer’s perspective, research and documentation are often time-cons
 ---
 
 ### Architecture Diagram
-![plot](ArchitectureDiagrams\deep-research.svg)
+
+![plot](ArchitectureDiagrams/deep-research.svg)
 
 ---
 
@@ -137,7 +138,7 @@ i.e->'portia:zendesk:tickets:show' tool has been custom made as 'zendeskticketss
 ---
 ### Architecture Diagram ###
 
-![plot](ArchitectureDiagrams\ticket-analysis.svg)
+![plot](ArchitectureDiagrams/ticket-analysis.svg)
 
 ---
 
