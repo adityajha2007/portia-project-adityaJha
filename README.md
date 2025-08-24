@@ -4,6 +4,7 @@
 
 This document provides a technical analysis of four distinct PortiaAI workflow implementations, highlighting the framework's capabilities and their practical applications in software development environments.
 
+
 ### Setup
 1. Clone the repository and select this folder.
 2. Create a `.env` and add your API keys to it.
@@ -31,6 +32,9 @@ portia-project-adityaJha/
 ├── ArchitectureDiagrams/
 
 │ └── Diagrams.svg
+
+
+### P.S -Being a lone warrior, have used some ChatGPT and Gemini, and Cursor Assistance in the overall project ###
 
 ---
 ---
