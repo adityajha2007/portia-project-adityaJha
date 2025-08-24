@@ -14,7 +14,7 @@ from portia import (
 from portia import open_source_tool_registry
 from typing import Annotated, List
 
-# Load environment variables
+
 load_dotenv()
 
 
