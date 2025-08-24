@@ -5,17 +5,16 @@
 This document provides a technical analysis of four distinct PortiaAI workflow implementations, highlighting the framework's capabilities and their practical applications in software development environments.
 
 portia-project-adityaJha/
-├── README.md                           # This file
-├── requirements.txt                    # Python dependencies
-├── PlanA-Code-analysis.py              
-├── PlanB-deepresearch.py                         
+├── README.md # This file
+├── requirements.txt # Python dependencies
+├── PlanA-Code-analysis.py
+├── PlanB-deepresearch.py
 ├── PlanC-customersupport-zendeskticket.py
-├── PlanD-RAG.py    # Git ignore file
-├── Frontend-integrated
-│   ├── Streamlit-frontend-with-PlanC-customersupport.py
-├── ArchitectureDiagrams
-│   ├── ......Diagrams.svg
-
+├── PlanD-RAG.py
+├── Frontend-integrated/
+│ └── Streamlit-frontend-with-PlanC-customersupport.py
+├── ArchitectureDiagrams/
+│ └── ......Diagrams.svg
 ---
 ---
 ---
